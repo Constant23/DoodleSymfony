@@ -7,15 +7,7 @@ use Symfony\Component\Routing\Annotation\Route;
 
 class SondageController extends AbstractController
 {
-    /**
-     * @Route("", name="home")
-     */
-    public function home()
-    {
-        return $this->render('sondage/home.html.twig', [
-            'controller_name' => 'SondageController',
-        ]);
-    }
+
 
     /**
      * @Route("/sondage", name="sondage")
